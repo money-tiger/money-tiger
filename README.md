@@ -1,4 +1,4 @@
-# money-tiger
+# Money Tiger
 Projet in Data processing for the technion and Galil medical center. The project goal is to create a POC of a better way to answer the appeals sent from the different MHOs (Medical Health Organization) regarding monthly payments. Instead of answering one by one, we suggest working on groups with similar properties and using past data to offer new answers.
   
 ## Overview
@@ -35,3 +35,6 @@ Add the following folders for the main repo folder:
 ## Disclosure
 
 "Money Tiger" is a student project and ment to be a POC and not a complete product (although all the way the users feedback guided the development), there are some features that are missing (i.e multipale MHO support). The system is designed based on the appeals excel sheets of July-September 2019 and they are not uploaded.
+
+## Contact
+You can contact us on moneytigergalil at Gmail.
