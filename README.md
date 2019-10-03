@@ -1,17 +1,5 @@
 # money-tiger
 Projet in Data processing for the technion and Galil medical center. The project goal is to create a POC of a better way to answer the appeals sent from the different MHOs (Medical Health Organization) regarding monthly payments. Instead of answering one by one, we suggest working on groups with similar properties and using past data to offer new answers.
-
-## Prerequisites
-
-You should install the following:
-* Jupyter Notebook (https://jupyter.org/install)
-* Python 3.7
-* Python libs:
-  * Gensim Doc2Vec
-  * Numpy
-  * Pandas
-  * Dash (https://dash.plot.ly/getting-started)
-  * SKlearn
   
 ## Overview
   
@@ -23,6 +11,26 @@ Money Tiger uses Doc2Vec to convert hebrew medical text into vectors and One-Hot
 * Doc2Vec by Gensim.
 * SKlearn - used for the preprocessing, clustring and KNN.
 * Pandas and numpy - used for handling the data.
+
+## Prerequisites
+
+### Installing
+
+You should install the following:
+* Jupyter Notebook (https://jupyter.org/install)
+* Python 3.7
+* Python libs:
+  * Gensim Doc2Vec
+  * Numpy
+  * Pandas
+  * Dash (https://dash.plot.ly/getting-started)
+  * SKlearn
+
+### Folder structures
+Add the following folders for the main repo folder:
+* d2v_files
+* preprocessed
+* process
 
 ## Disclosure
 
